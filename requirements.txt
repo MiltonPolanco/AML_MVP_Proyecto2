@@ -1,0 +1,5 @@
+streamlit>=1.45,<2
+torch>=2.3,<3
+pandas>=2.2,<4
+numpy>=1.26,<3
+altair>=5,<6
