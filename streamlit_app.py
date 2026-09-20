@@ -25,12 +25,13 @@ st.markdown(
     .block-container {padding-top: 2rem; padding-bottom: 3rem; max-width: 1250px;}
     h1 {letter-spacing: -0.035em;}
     [data-testid="stMetric"] {
-        border: 1px solid #d9e2e8; border-radius: 10px; padding: 0.8rem 1rem;
-        background: #f8fafb;
+        border: 1px solid rgba(127, 127, 127, 0.35); border-radius: 10px;
+        padding: 0.8rem 1rem; background: rgba(127, 127, 127, 0.10);
     }
     .result-box {
         border-left: 5px solid #0f766e; background: #eef8f6;
         border-radius: 8px; padding: 1rem 1.1rem; margin: .25rem 0 1rem 0;
+        color: #172033;
     }
     .result-box.alert {border-left-color: #b42318; background: #fff2f0;}
     .small-note {color: #52616b; font-size: .9rem;}
